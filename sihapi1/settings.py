@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-5zt!%)!l!59go5w_@%nyrb@zw36e8phddvl9zml6o%s%*02ens
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sihfinal.herokuapp.com']
 
 
 # Application definition
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'sihrestapi',
         'USER': 'postgres',
         'PASSWORD': 'rdso@123',
-        'HOST': ' sihfinal.herokuapp.com',
+        'HOST': 'sihfinal.herokuapp.com',
 
 
 
